@@ -5,6 +5,7 @@ VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FFB2B6CE-D41D-4AEC-BD2D-681C7AC95F88}"
 	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet-core.yml = .github\workflows\dotnet-core.yml
 		readme.md = readme.md
 	EndProjectSection
 EndProject
@@ -15,9 +16,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Protos", "Protos", "{9BAABE
 		Protos\Contracts.proto = Protos\Contracts.proto
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messaging.Client", "Messaging.Client\Messaging.Client.csproj", "{A6AC35FD-2136-4EB8-A239-B12FCB728894}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messaging.Client", "Messaging.Client\Messaging.Client.csproj", "{A6AC35FD-2136-4EB8-A239-B12FCB728894}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.App", "Client.App\Client.App.csproj", "{1BC315C5-6A41-42D0-BD07-769252D76B97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client.App", "Client.App\Client.App.csproj", "{1BC315C5-6A41-42D0-BD07-769252D76B97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

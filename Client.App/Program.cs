@@ -11,7 +11,7 @@ namespace Client.App
         {
             Console.WriteLine("Hello World!");
 
-            using var channel = GrpcChannel.ForAddress("https://localhost:5001");
+            using var channel = GrpcChannel.ForAddress("https://localhost:443");
 
             var client = new GrpcGreeter.Greeter.GreeterClient(channel);
             for (int i = 0; i < 100_000_000; i++)
